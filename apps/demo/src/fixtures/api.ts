@@ -298,7 +298,7 @@ export const apiProject: ContextSnapshot = {
           'Creates a valid order: documented pass.',
           'Empty basket: documented pass.',
           'Insufficient stock returns 409 and writes no order: documented pass.',
-          'This is example evidence, not a test result produced by Context Atlas.',
+          'This is example evidence, not a test result produced by DONWI Atlas.',
         ],
       },
     }),

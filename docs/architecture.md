@@ -1,6 +1,6 @@
 # Architecture
 
-Context Atlas separates project facts, their visual presentation, and the system that
+DONWI Atlas separates project facts, their visual presentation, and the system that
 can act on them. This allows an ordinary API project and a model-driven application
 studio to share an explorer while retaining different capabilities.
 

@@ -86,7 +86,7 @@ test('switch from All to one project scope and keep it across a reload', async (
   const scope = navigation.getByRole('combobox', { name: 'Scope' });
   await expect(scope).toHaveValue('all');
   await expect(page.getByRole('heading', { level: 1, name: 'Workspace overview' })).toBeVisible();
-  await expect(page.getByText('Context Atlas · Workspace context')).toBeVisible();
+  await expect(page.getByText('DONWI Atlas · Workspace context')).toBeVisible();
 
   await scope.selectOption('project:billing-api');
   await expect(page).toHaveURL(/#\/project%3Abilling-api\/billing-context\/README\.md$/);

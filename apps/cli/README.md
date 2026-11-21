@@ -1,6 +1,6 @@
 # `context-atlas-cli`
 
-Read-only local explorer for Context Atlas project folders. The `context-atlas` command
+Read-only local explorer for DONWI Atlas project folders. The `context-atlas` command
 serves the selected folder on the loopback interface and includes the browser UI.
 
 Requires Node.js 22.12 or later.
