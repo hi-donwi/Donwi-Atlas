@@ -1,19 +1,19 @@
-# Context Atlas
+# DONWI Atlas
 
 Explore a project from the big picture to the exact operation, page, table, or task.
-Context Atlas connects written explanations with visual journeys and source evidence,
+DONWI Atlas connects written explanations with visual journeys and source evidence,
 so people and coding agents can work from the same bounded context.
 
 The first release includes a reusable React explorer, a framework-neutral snapshot
 model, an OpenAPI adapter, and a standalone demo with synthetic API and website projects.
 
-[Open the live demo](https://hi-donwi.github.io/Context-Atlas/).
+[Open the live demo](https://hi-donwi.github.io/Donwi-Atlas/).
 
-![Context Atlas overview for the synthetic Atlas Commerce API project](docs/images/context-atlas-overview.png)
+![DONWI Atlas overview for the synthetic Atlas Commerce API project](docs/images/context-atlas-overview.png)
 
 The journey view connects the API operation to its declared services, data, and response:
 
-![Context Atlas order journey for the synthetic Atlas Commerce API project](docs/images/context-atlas-journey.png)
+![DONWI Atlas order journey for the synthetic Atlas Commerce API project](docs/images/context-atlas-journey.png)
 
 ```mermaid
 flowchart LR
@@ -35,8 +35,8 @@ This is how you read a real project's documents. `npm start` builds the folder e
 and serves the folder you name, read-only, on `127.0.0.1`:
 
 ```sh
-git clone https://github.com/hi-donwi/Context-Atlas.git
-cd Context-Atlas
+git clone https://github.com/hi-donwi/Donwi-Atlas.git
+cd Donwi-Atlas
 npm ci
 npm start -- /path/to/project-docs --port 4317
 ```
@@ -71,7 +71,7 @@ The published npm CLI can be run from a target context repository. Add this scri
 ```
 
 Then run `npm run atlas` from that repository's root. The command uses the current directory
-as its context folder, so it does not depend on a relative path back to the Context Atlas
+as its context folder, so it does not depend on a relative path back to the DONWI Atlas
 checkout. The CLI package bundles the browser UI and depends on the published `core` and
 `source-node` packages.
 
@@ -162,8 +162,8 @@ The model and viewer also ship their generated package files, so a host can inst
 from a pinned Git commit without publishing them to a package registry. For example:
 
 ```sh
-pnpm add 'github:hi-donwi/Context-Atlas#<commit-sha>&path:/packages/model' \
-  'github:hi-donwi/Context-Atlas#<commit-sha>&path:/packages/viewer'
+pnpm add 'github:hi-donwi/Donwi-Atlas#<commit-sha>&path:/packages/model' \
+  'github:hi-donwi/Donwi-Atlas#<commit-sha>&path:/packages/viewer'
 ```
 
 Import `ContextExplorer` and the snapshot types from `@context-atlas/viewer`, then import
@@ -185,11 +185,11 @@ Browser tests exercise the assembled application. On Linux, use
 
 ## Integration boundary
 
-Context Atlas is a documentation and navigation layer. A host can open an authorized
+DONWI Atlas is a documentation and navigation layer. A host can open an authorized
 source reference or handle an edit request through callbacks. The host retains
 permissions, source writes, conflict checks, compiler access, and execution behavior.
 
-The initial release does not include production adapters for Agent-Control or Kerangka,
+The initial release does not include production adapters for DONWI Desk or Kerangka,
 or a model/UIDL builder. Those integrations can consume the same snapshot and viewer
 without adding their runtime semantics to the generic graph.
 
