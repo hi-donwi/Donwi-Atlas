@@ -1,6 +1,6 @@
 # Integration guide
 
-Context Atlas accepts a snapshot whose sources the host has already authorized.
+DONWI Atlas accepts a snapshot whose sources the host has already authorized.
 Adapters translate source facts; the viewer provides navigation and interaction.
 The packages are npm workspaces in this repository. The model and viewer subdirectories
 also include generated package files for pinned Git installation by host applications.
@@ -68,7 +68,7 @@ export function ProjectContext({
 }
 ```
 
-Install the viewer from a specific Context Atlas commit, quoting the subdirectory specifier
+Install the viewer from a specific DONWI Atlas commit, quoting the subdirectory specifier
 so the shell does not interpret its `&` separator:
 
 ```sh

@@ -1,6 +1,6 @@
 # Contributing
 
-Context Atlas is a source-linked project explorer. Contributions should make project
+DONWI Atlas is a source-linked project explorer. Contributions should make project
 information easier to understand without creating another source of truth.
 
 ## Development

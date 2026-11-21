@@ -2,7 +2,7 @@
   "name": "context-atlas-cli",
   "version": "0.1.0",
   "type": "module",
-  "description": "Read-only local explorer for Context Atlas project folders",
+  "description": "Read-only local explorer for DONWI Atlas project folders",
   "license": "MIT",
   "files": [
     "dist",

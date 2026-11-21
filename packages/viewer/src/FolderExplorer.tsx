@@ -66,7 +66,7 @@ function LocalizedFolderExplorer({
             {workspace ? text.workspaceContext : text.localFolder}
           </span>
           <div className="atlas-folder-explorer__brand-title">
-            <h1>{state.info?.title ?? 'Context Atlas'}</h1>
+            <h1>{state.info?.title ?? 'DONWI Atlas'}</h1>
             <span className="atlas-folder-explorer__read-only">{text.readOnly}</span>
           </div>
         </div>

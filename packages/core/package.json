@@ -2,7 +2,7 @@
   "name": "context-atlas-core",
   "version": "0.1.0",
   "type": "module",
-  "description": "Shared contracts and safe path handling for Context Atlas",
+  "description": "Shared contracts and safe path handling for DONWI Atlas",
   "license": "MIT",
   "repository": {
     "type": "git",

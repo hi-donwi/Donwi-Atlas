@@ -15,7 +15,7 @@ if (build.status !== 0) {
   process.stderr.write(build.stdout ?? '');
   process.stderr.write(build.stderr ?? '');
   if (build.error !== undefined) process.stderr.write(`${build.error.message}\n`);
-  process.stderr.write('Context Atlas could not be built; the output above says why.\n');
+  process.stderr.write('DONWI Atlas could not be built; the output above says why.\n');
   process.exit(build.status ?? 1);
 }
 

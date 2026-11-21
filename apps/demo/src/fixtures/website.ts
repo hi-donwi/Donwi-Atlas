@@ -155,7 +155,7 @@ export const websiteProject: ContextSnapshot = {
       kind: 'topic',
       label: 'Study: a recoverable form',
       description:
-        'A hypothetical exercise follows invalid, pending, accepted, and retry states. It does not claim those behaviors were tested by Context Atlas.',
+        'A hypothetical exercise follows invalid, pending, accepted, and retry states. It does not claim those behaviors were tested by DONWI Atlas.',
       moduleId: 'newsletter-module',
       status: 'proposed',
       tags: ['Hypothetical'],

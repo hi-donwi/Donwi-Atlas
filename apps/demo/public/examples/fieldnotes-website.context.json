@@ -248,7 +248,7 @@
       "id": "website-study",
       "kind": "topic",
       "label": "Study: a recoverable form",
-      "description": "A hypothetical exercise follows invalid, pending, accepted, and retry states. It does not claim those behaviors were tested by Context Atlas.",
+      "description": "A hypothetical exercise follows invalid, pending, accepted, and retry states. It does not claim those behaviors were tested by DONWI Atlas.",
       "moduleId": "newsletter-module",
       "details": {
         "notes": [
