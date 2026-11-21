@@ -72,8 +72,8 @@ Install the viewer from a specific Context Atlas commit, quoting the subdirector
 so the shell does not interpret its `&` separator:
 
 ```sh
-pnpm add 'github:hi-donwi/Context-Atlas#<commit-sha>&path:/packages/model' \
-  'github:hi-donwi/Context-Atlas#<commit-sha>&path:/packages/viewer'
+pnpm add 'github:hi-donwi/Donwi-Atlas#<commit-sha>&path:/packages/model' \
+  'github:hi-donwi/Donwi-Atlas#<commit-sha>&path:/packages/viewer'
 ```
 
 The viewer declares the model as a peer dependency. Install both packages from the same

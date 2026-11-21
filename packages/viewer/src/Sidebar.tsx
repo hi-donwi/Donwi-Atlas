@@ -40,7 +40,7 @@ export function Sidebar({
     <aside className="atlas-sidebar" aria-label="Project navigation">
       <a
         className="atlas-brand"
-        href="https://github.com/hi-donwi/Context-Atlas"
+        href="https://github.com/hi-donwi/Donwi-Atlas"
         target="_blank"
         rel="noreferrer"
       >
@@ -128,7 +128,7 @@ export function Sidebar({
         </div>
         <a
           className="atlas-source-link"
-          href="https://github.com/hi-donwi/Context-Atlas"
+          href="https://github.com/hi-donwi/Donwi-Atlas"
           target="_blank"
           rel="noreferrer"
         >
